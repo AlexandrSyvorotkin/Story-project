@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+    position: relative;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    height: 100%;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    background: rgba(100, 6, 6, 0.25);
+    border-radius: 0px 8px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}

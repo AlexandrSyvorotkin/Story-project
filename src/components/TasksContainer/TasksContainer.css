@@ -1,0 +1,6 @@
+.containerLayout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-auto-rows: minmax(240px, auto);
+    grid-gap: 2rem;
+}
