@@ -13,19 +13,19 @@ const TaskContainer = () => {
         },
         {
             id: 2,
-            title: "Find dad's wallett",
+            title: "Put away old toys to white boxes on the balkoney",
             points: "80",
             isCompleted: false
         },
         {
             id: 3,
-            title: "Find dad's wallettt",
+            title: "Wash the dishes",
             points: "110",
             isCompleted: false
         },
         {
             id: 4,
-            title: "Find dad's walletttt",
+            title: "Make your bed in the morning",
             points: "135",
             isCompleted: false
         }

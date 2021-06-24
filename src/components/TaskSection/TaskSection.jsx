@@ -2,7 +2,7 @@ import React from 'react';
 import SectionName from "../SectionName/SectionName";
 import TaskContainer from "../TasksContainer/TasksContainer";
 
-const TastContainer = () => {
+const TaskSection = () => {
     return (
         <div>
             <SectionName/>
@@ -11,4 +11,4 @@ const TastContainer = () => {
     );
 };
 
-export default TastContainer;
+export default TaskSection;

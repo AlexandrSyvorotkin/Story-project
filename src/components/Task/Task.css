@@ -1,4 +1,4 @@
-div {
+.task {
     display: flex;
     align-items: flex-end;
     border-radius: 8px;
@@ -8,14 +8,14 @@ div {
     height: 100%;
 }
 
-p {
-    color: #fff;
+.title {
+    color: white;
     font-size: 18px;
     font-weight: bold;
 }
 
 
-span {
+.points {
     position: absolute;
     right: 0;
     top: 0;
