@@ -1,0 +1,47 @@
+.taskComplete {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.iconCompleteContainer {
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    border: 1px dashed transparent;
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.taskCompleteIcon {
+    display: grid;
+    place-content: center;
+    color: #ff8933;
+    font-size: 80px;
+    border: 1px dashed #ff8933;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.taskCompleteText {
+    color: #ff8933;
+    text-align: center;
+}
+
+.taskCompleteBigText {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.taskCompleteSmallText {
+    font-size: 16px;
+    color: #333;
+}
